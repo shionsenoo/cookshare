@@ -60,4 +60,34 @@
     </div>
   </div>
 </section>
-      
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-6">
+        <ul class="comments_lists">
+        <% if @comments %>
+          <% @comments.each do |comment| %>
+            <li class="comments_list">
+              <%= comment.text%>
+              <%= link_to "#{comment.user.nickname}", "/users/#{comment.user.id}", class: :comment_user %>
+            </li>
+          <% end %>
+        <% end %>
+        </ul>
+        <% if user_signed_in? %>
+          <%= form_with(model: [@post, @comment], local: true) do |f| %>
+
+            <div class="field">
+              <%= f.label :text, "コメント" %><br />
+              <%= f.text_field :text, id:"comment_text", class:"input is-warning" %>
+            </div>
+            <div class="actions">
+              <%= f.submit "送信", class: "button is-success" %>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

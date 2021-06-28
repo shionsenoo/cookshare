@@ -24,11 +24,34 @@
   border-radius: 50%;
 }
 
-.main-image{
-  height: 950px;
-  width: 100%;
-  background-image: url(cook.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 0 auto;
+.slide {
+  object-fit: cover;
+  position   : relative;
+  overflow   : hidden;
+                    /* 画像のサイズに合わせて変更ください */
+  width      : 95%;
+  height     : 900px;
+  margin     : auto;      /* サンプルは中央寄せの背景：白 */
+  background : #fff;
+}
+ 
+.cook {
+  display    : block;
+  position   : absolute;
+  width      : 100%;
+  height     : 100%;
+  opacity    : 0;
+  animation  : slideAnime 15s ease infinite;
+}
+ 
+.cook:nth-of-type(1) { animation-delay: 0s }
+.cook:nth-of-type(2) { animation-delay: 5s }
+.cook:nth-of-type(3) { animation-delay: 10s }
+
+ @keyframes slideAnime{
+  0% { opacity: 0; transform: scale(.1, .1)}
+  3% { opacity: 1; transform: scale(1, 1)  }
+  30% { opacity: 1; transform: scale(1, 1)  }
+  33% { opacity: 0; transform: scale(2, 2)  }
+  100% { opacity: 0; transform: scale(2, 2)  }
 }

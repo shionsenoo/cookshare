@@ -69,8 +69,7 @@ password:111111
 
 データベース設計:
   [![Image from Gyazo](https://i.gyazo.com/16228cdce27f2aa4dcb431e9615dea3d.png)](https://gyazo.com/16228cdce27f2aa4dcb431e9615dea3d)
-  
-ローカル環境での動作方法:
+
 
 
 ## users テーブル
