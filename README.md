@@ -7,6 +7,7 @@ cookshare
 自分の作った料理を他の人とシェアし会える
 
 URL(デプロイ済み):
+https://cookshare-35695.herokuapp.com/
 
 テスト用アカウント:
 アドレス：taro.com
