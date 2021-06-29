@@ -66,6 +66,7 @@ password:111111
 実装した機能についての画像やGIF及びその説明:
 
 ・サインイン/ログインページ
+
   [![Image from Gyazo](https://i.gyazo.com/a5c331d831feba7b161649aea64fc2d1.gif)](https://gyazo.com/a5c331d831feba7b161649aea64fc2d1)
 
 ・プロフィールの編集機能
@@ -76,7 +77,7 @@ password:111111
 
 ・投稿編集機能
   [![Image from Gyazo](https://i.gyazo.com/174802a82193ab64193b3e59722b5b75.gif)](https://gyazo.com/174802a82193ab64193b3e59722b5b75)
-  
+
 ・投稿物削除機能
   [![Image from Gyazo](https://i.gyazo.com/4cbdfaa0fc7f9b7da7f53dfd64151688.gif)](https://gyazo.com/4cbdfaa0fc7f9b7da7f53dfd64151688)
 
