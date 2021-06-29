@@ -10,7 +10,7 @@ URL(デプロイ済み):
 https://cookshare-35695.herokuapp.com/
 
 テスト用アカウント:
-アドレス：taro.com
+アドレス：taro＠com
 password:111111
 
 利用方法:
